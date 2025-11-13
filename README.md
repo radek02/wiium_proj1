@@ -1,7 +1,3 @@
 # Etap 1 - czyszczenie danych:
 
-Jest 220 kolumn.
-
-## Usunięcie kolumn
-
-- `szczegolnaFormaPrawna_Symbol` - zbęda informacja - wszędzie wartości `117`, oznaczające `Spółkę z ograniczoną odpowiedzialnością`
+Oryginalnie było 220 kolumn, po przetworzeniu w `clean_data.ipynb` zostało ich 71. Oprócz usunięcia "zbędnych" kolumn dokonano imputancji brakujących wartości poprzez wpisanie w ich miejsce mediany z kolumny (dla wartości liczbowych, dla kategorycznych nie było brakujących).
